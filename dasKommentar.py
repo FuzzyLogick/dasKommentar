@@ -11,6 +11,8 @@ Please be aware, this script does not replace diligent HTML code source review, 
 This script depends on BeautifulSoup to run.
 
 This Python script was written by James Russell.
+
+Usage: ./dasKommentar.py http://www.example.com
 '''
 
 
