@@ -23,6 +23,7 @@ import requests
 import sys
 
 
+
 #including a user agent string.  I don't think it matters (I did not run into any problems without it), but
 #I figured why not.  Feel free to comment it out and make the apporporate update to the Process block.
 user_agent = {'User-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:56.0) Gecko/20100101 Firefox/56.0'}
@@ -52,7 +53,13 @@ def process(url):
 
 def main():
     if len(sys.argv) == 1:
-        print("Usage: ./{0} http://www.example.com".format(Path(sys.argv[0]).name))
+        print("     _           _  __                                    _              ")             
+        print("  __| | __ _ ___| |/ /___  _ __ ___  _ __ ___   ___ _ __ | |_ __ _ _ __  ")
+        print(" / _` |/ _` / __| ' // _ \| '_ ` _ \| '_ ` _ \ / _ \ '_ \| __/ _` | '__| ")
+        print("| (_| | (_| \__ \ . \ (_) | | | | | | | | | | |  __/ | | | || (_| | |    ")   
+        print(" \__,_|\__,_|___/_|\_\___/|_| |_| |_|_| |_| |_|\___|_| |_|\__\__,_|_|    ")
+        print("                                                                         ")   
+        print("Usage: ./{0} http://www.example.com (or) https://www.example.com".format(Path(sys.argv[0]).name))
         sys.exit(1)
         
     for url in sys.argv[1:]:
