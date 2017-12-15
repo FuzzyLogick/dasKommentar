@@ -46,7 +46,7 @@ def process(url):
         print(comments)
         print("")
         print("")
-        print("++++++++++++++++++++++++++++++++++++++++++++++++++")
+        print("+"*50)
         print("")
 
 
