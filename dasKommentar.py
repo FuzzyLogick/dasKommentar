@@ -36,7 +36,7 @@ def process(url):
 
 
     print("")
-    print("++++++++++++++++++++++++++++++++++++++++++++++++++")
+    print("+"*50)
 
     soup=BeautifulSoup(data,'html.parser')
 
