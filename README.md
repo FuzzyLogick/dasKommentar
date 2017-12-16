@@ -2,7 +2,7 @@
 
 
 The purpose of this script is to extract developer comments from a webpage.  This Python script can be used
-by everyone from Web Pentesters, Red Teams, HTML developers, to generally nosy Gladys Kravitz types.  
+by everyone from web security professionals, Red Teams, HTML developers, to generally nosy Gladys Kravitz types.  
 Why? Because sometimes devs don't do a good job cleaning up their code and leave behind helpful clues that can 
 be leveraged into additional misdeeds. The idea for this came from HackThisSite's Realistic Challenge 3.
 
